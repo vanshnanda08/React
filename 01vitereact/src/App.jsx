@@ -1,7 +1,14 @@
-import Chai from './Chai.jsx'
+import Chai from "./Chai.jsx";
 
 function App() {
-    return (<Chai/>)
+    const username = "vansh";
+    return (
+        <>
+            <h1> {username}</h1>
+            <Chai />
+        </>
+    );
 }
 
 export default App;
+ 
