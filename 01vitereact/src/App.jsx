@@ -1,11 +1,7 @@
+import Chai from './Chai.jsx'
 
 function App() {
-  
-
-  return (
-    <h1>Vansh this side using vite react.
-    </h1>
-  );
+    return (<Chai/>)
 }
 
-export default App
+export default App;
